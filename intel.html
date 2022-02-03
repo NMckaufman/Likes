@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Header-->
+    <div class="nav">
+        <h1 class="nav-title">Network</h1>
+    </div>
+    <!--End of Header-->
+    <!--Title-->
+    <div class="container">
+        <h1> Your Feed</h1>
+    </div>
+    <!--end of title-->
+    <div class="container-2">
+        <div class="left-col">
+            <img src="./download.png" alt="profile pic">
+            <h4>Add an Avatar</h4>
+            <h2 id="myname"> Nisa</h2>
+        </div>
+        <div class="second-col">
+            <div class="right-col ">
+                <div class="flexed-2">
+                    <h2>Se&ntilde;or Hoffman</h2>
+                    <p><span id="likesCount">9</span> like</p>
+                    <button onclick="increaseCount()" class="yellow-button">Likes</button>
+                </div>
+                <div class="hoffmanp">I just set up this new discord bot, let me know what you all think.<a href="#">Link</a></div>
+            </div>
+            <div class="right-col">
+                <div class="flexed-2">
+                    <h2>Se&ntilde;or Hoffman</h2>
+                    <p class="likestext"><span id="likesCount2">9</span>Likes</p>
+                    <button onclick="increaseCount()" class="yellow-button">Likes</button>
+                </div>
+                <div class="hoffmanp">
+                    <p> Just finished my <a href="#">next comic,</a> check it out.</p>
+                </div>
+            </div>
+            <div class="right-col">
+                <div class="flexed-2">
+                    <h2>Se&ntilde;or Hoffman</h2>
+                    <p class="likestext"><span id="likesCount3">9</span>Likes</p>
+                    <button onclick="increaseCount()" class="yellow-button">Likes</button>
+                </div>
+                <p class="hoffmanp">I can't stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+    <script src="./function.js"></script>
+</body>
+
+</html>
